@@ -184,7 +184,8 @@ color: #fff;
 	border-bottom:1px solid #dddddd;
 	box-shadow:0 4px 5px -3px #ececec;
 	position:relative;
-	background:#fff;
+	background: #0c7498;
+	
 }
 .main-nav{
 	text-align:center;
@@ -1010,3 +1011,14 @@ span.psw {
         width: 100%;
     }
 }
+.header--logo {
+	position: absolute;
+}
+
+.header-logo {
+	
+}
+
+
+
+
