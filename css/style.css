@@ -186,6 +186,7 @@ color: #fff;
 	position:relative;
 	background: #0c7498;
 	
+	
 }
 .main-nav{
 	text-align:center;
@@ -779,12 +780,13 @@ border: 2px solid #fff;
 ---------------------------------*/
 
 .footer{
-	background:url(../img/pw_maze_black_2X.png) left top repeat;
+	/*//background:url(../img/pw_maze_black_2X.png) left top repeat;*/
 	padding:35px 0 35px;
+	background-color: #6b1304;
 }
 .footer-logo{
 	margin:15px auto 35px;
-	width: 76px;
+	width: 100px;
 }
 .copyright, .credits{
 	color:#cccccc;
