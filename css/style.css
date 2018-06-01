@@ -1017,9 +1017,11 @@ span.psw {
 	position: absolute;
 }
 
-.header-logo {
-	
-}
+#maps {
+   width: 100%;
+   height: 400px;
+   background-color: grey;
+ }
 
 
 
