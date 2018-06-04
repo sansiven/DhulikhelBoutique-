@@ -324,7 +324,7 @@ color: #fff;
 ---------------------------------*/
 .Portfolio-nav{
 	padding:0;
-	margin:0 0 45px 0;
+	margin:0 0 20px 0;
 	list-style:none;
 	text-align:center;
 }
@@ -361,7 +361,8 @@ color: #fff;
 .Portfolio-box{
 	text-align:center;
 	margin-bottom:30px;
-	height:350px;
+	margin-top: 10px;
+	height:250px;
 	width:350px;
 	overflow:hidden;
 	float:left;
@@ -369,6 +370,7 @@ color: #fff;
 }
 .Portfolio-box img{
 	margin-bottom:25px;
+	margin-top: 10px;
 	transition:all 0.3s ease-in-out;
 	-moz-transition:all 0.3s ease-in-out;
 	-webkit-transition:all 0.3s ease-in-out;	
