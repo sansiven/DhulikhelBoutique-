@@ -97,7 +97,7 @@ p{
 
 .header{
 	text-align:center;
-	background:url(../img/pnoramaview.jpg) center no-repeat;
+	background:url(../img/drinks.jpg) center no-repeat;
 	background-position: center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -184,7 +184,7 @@ color: #fff;
 	border-bottom:1px solid #dddddd;
 	box-shadow:0 4px 5px -3px #ececec;
 	position:relative;
-	background: #0c7498;
+	background: rgb(214, 62, 43);
 	opacity: 0.9;
 	
 }
