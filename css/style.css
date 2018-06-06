@@ -411,7 +411,7 @@ img {
 /* Clients
 ---------------------------------*/
 .client-part{
-	background:url(../img/section-bg1.jpg) center center no-repeat;
+	background:url(../img/interior3.jpg) center center no-repeat;
 	background-size:cover;
 	padding:55px 0;
 	text-align:center;
@@ -426,7 +426,7 @@ img {
 }
 .client{
 	padding:0;
-	margin:20px 0 0;
+	margin:-15px 0 0;
 	list-style:none;
 	text-align:center;
 }
