@@ -55,7 +55,7 @@ a, a:hover, a:active{ outline:0px !important}
 ---------------------------------*/
 body {
 	background:#fff;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-size:14px;
 	font-weight:normal;
 	color:#888888;
@@ -64,7 +64,7 @@ body {
 h2{
 	font-size:34px;
 	color:#222222;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-weight:700;
 	letter-spacing: -1px;
 	margin:0 0 15px 0;
@@ -72,7 +72,7 @@ h2{
 	text-transform:uppercase;
 }
 h3{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lato', sans-serif;
 	color:#222222;
 	font-size:16px;
 	margin:0 0 5px 0;
@@ -82,7 +82,7 @@ h3{
 h6{
 	font-size:16px;
 	color:#888888;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-weight:400;
 	text-align:center;
 	margin:0 0 60px 0;
@@ -155,7 +155,7 @@ color: #fff;
 	color:#fff !important;
 	font-size:16px;
 	font-weight:400;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lato', sans-serif;
 	display:inline-block;
 	border-radius:3px;
 	text-transform:uppercase;
@@ -202,7 +202,7 @@ color: #fff;
 	display:inline-block;
 	color:#222222;
 	text-transform:uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lato', sans-serif;
 	text-decoration: none;
 	line-height:20px;
 	margin:17px 32px;
@@ -302,7 +302,7 @@ color: #fff;
 	color:#7cc576;
 	font-size:16px;
 	text-transform:uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-weight:400;
 	line-height:24px;
 	transition:all 0.3s ease-in-out;
@@ -340,7 +340,7 @@ color: #fff;
 	color:#222222;
 	border-radius:4px;
 	text-transform:uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lato', sans-serif;
 	background:#f7f7f7;
 	margin-bottom:5px;
 	transition:all 0.3s ease-in-out;
@@ -421,7 +421,7 @@ img {
 	font-size:28px;
 	line-height:41px;
 	margin:30px 0 10px;
-	font-family: ''Open Sans',sans-serif';
+	font-family: 'Lato', sans-serif;
 	font-style: italic;
 }
 .client{
@@ -607,7 +607,7 @@ border: 2px solid #fff;
 	text-align:center;
 }
 .business-talking h2{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-weight:700;
 	padding:0;
 	margin:20px 0 70px;
@@ -706,7 +706,7 @@ border: 2px solid #fff;
 	border-radius:4px;
 	font-size:15px;
 	color:#aaa;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
 	margin:0 0 15px 0;
 	transition:all 0.3s ease-in-out;
 	-moz-transition:all 0.3s ease-in-out;
@@ -733,7 +733,7 @@ border: 2px solid #fff;
 	color:#ffffff;
 	font-size:14px;
 	text-transform:uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-weight:400;
 	border:0px;
 	transition:all 0.3s ease-in-out;
