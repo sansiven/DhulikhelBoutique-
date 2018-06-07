@@ -184,8 +184,9 @@ color: #fff;
 	border-bottom:1px solid #dddddd;
 	box-shadow:0 4px 5px -3px #ececec;
 	position:relative;
-	background: rgb(214, 62, 43);
-	opacity: 0.9;
+	/*background: rgb(214, 62, 43);*/
+	background: rgba(34, 61, 97, 0.64);
+	
 	
 }
 .main-nav{
@@ -784,7 +785,7 @@ border: 2px solid #fff;
 .footer{
 	/*//background:url(../img/pw_maze_black_2X.png) left top repeat;*/
 	padding:35px 0 35px;
-	background-color: #6b1304;
+	background-color: rgba(36, 134, 81, 0.95);
 }
 .footer-logo{
 	margin:15px auto 35px;
