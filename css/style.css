@@ -185,7 +185,7 @@ color: #fff;
 	box-shadow:0 4px 5px -3px #ececec;
 	position:relative;
 	/*background: rgb(214, 62, 43);*/
-	background: rgba(34, 61, 97, 0.64);
+	background: rgba(81, 81, 82, 0.83);
 	
 	
 }
@@ -1017,7 +1017,12 @@ span.psw {
     }
 }
 .header--logo {
+	height: 150px;
 	position: absolute;
+	border: 2px solid black;
+	background:  rgba(1, 5, 2, 0.91);;
+	text-align: center;
+	opacity: 0.8;
 }
 
 #maps {
