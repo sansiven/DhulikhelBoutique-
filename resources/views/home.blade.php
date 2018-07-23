@@ -279,7 +279,7 @@
     	<h6>Fresh photos of area in and out of Hotel.</h6>
       <div class="portfolioFilter">  
         <ul class="Portfolio-nav wow fadeIn delay-02s">
-        	<li><a href="#" data-filter="*" class="current" >All</a></li>
+        	<!--<li><a href="#" data-filter="*" class="current" >All</a></li>-->
             <li><a href="#" data-filter=".rooms" >Rooms</a></li>
             <li><a href="#" data-filter=".food" >Food</a></li>
             <li><a href="#" data-filter=".exteriors" >Exteriors</a></li>
@@ -423,30 +423,54 @@
             	</div>
             </div>
         	<div class="col-lg-6 col-sm-5 wow fadeInUp delay-05s">
+           	{!! Form::open(['url' => '/submit']) !!}
             	<div class="form">
                 	
                     <div id="sendmessage">Your message has been sent. Thank you!</div>
                     <div id="errormessage"></div>
                     <form action="" method="post" role="form" class="contactForm">
                         <div class="form-group">
-                            <input type="text" name="name" class="form-control input-text" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                            <div class="validation"></div>
+                           
+                           {{Form::text('name', '', ['class' => 'form-control input-text','placeholder' => 'You Name'])}}
+                            <!--<input type="text" name="name" class="form-control input-text" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                            <div class="validation"></div>-->
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control input-text" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                            <div class="validation"></div>
+                           {{Form::text('email', '', ['class' => 'form-control input-text','placeholder' => 'example@email.com'])}}
+                            <!--<input type="email" class="form-control input-text" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                            <div class="validation"></div>-->
                         </div>
-                        <div class="form-group">
+                        <!--<div class="form-group">
                             <input type="text" class="form-control input-text" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
                             <div class="validation"></div>
-                        </div>
+                        </div>-->
                         <div class="form-group">
-                            <textarea class="form-control input-text text-area" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                            <div class="validation"></div>
+                           {{Form::text('message', '', ['class' => 'form-control text-area', 'rows' => '5' ,'placeholder' => 'Your Message'])}}
+                            <!--<textarea class="form-control input-text text-area" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                            <div class="validation"></div>-->
                         </div>
                         
-                        <div class="text-center"><button type="submit" class="input-btn">Send Message</button></div>
+                        <div class="text-center">
+                        	{{Form::submit('Send Message', ['class' => 'input-btn'])}}
+                        <!--<button type="submit" class="input-btn">Send Message</button>-->
+                        </div>
+                        
+                        @if(count($errors) > 0) 
+							@foreach($errors ->all() as $error)
+								<div class="alert alert-danger">
+									{{$error}}
+								</div>
+							@endforeach
+						@endif
+                        
+                        @if(session('success'))
+                        	<div class="alert alert-success">
+                        		{{session('success')}}
+                        	</div>
+                        @endif
+                        
                     </form>
+                    {!! Form::close() !!}
                 </div>	
             </div>
         </div>

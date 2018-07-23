@@ -117,7 +117,7 @@
 
 					</div>
 					<div class="col-lg-4 col-sm-3 wow fadeInUp delay-05s">
-						{!! Form::open(['url' => 'book/bsubmit']) !!}
+						{!! Form::open(['url' => 'book/submit']) !!}
 						<div class="form">
 
 							<div id="sendmessage">Your message has been sent. Thank you!</div>

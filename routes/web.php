@@ -18,3 +18,5 @@ Route::get('/', function () {
 Route::get('/book', function () {
 	return view('book');
 });
+
+Route::post('/submit', 'messagesController@submit');
