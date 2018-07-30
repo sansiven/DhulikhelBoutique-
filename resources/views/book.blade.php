@@ -119,13 +119,28 @@
 					<div class="col-lg-4 col-sm-3 wow fadeInUp delay-05s">
 						{!! Form::open(['url' => 'book/submit']) !!}
 						<div class="form">
+							
+							 @if(count($errors) > 0) 
+							@foreach($errors ->all() as $error)
+								<div class="alert alert-danger">
+									{{$error}}
+								</div>
+							@endforeach
+						@endif
+                        
+                        @if(session('success'))
+                        	<div class="alert alert-success">
+                        		{{session('success')}}
+                        	</div>
+                        @endif
 
 							<div id="sendmessage">Your message has been sent. Thank you!</div>
 							<div id="errormessage"></div>
 							<form action="" th:action="@{/book}" method="post" th:object=${booker} role="form" class="contactForm">
 								
 								<div class="form-group">
-									<input type="text" th:Field="*{roomname}" name="name" class="form-control input-text" id="name" placeholder="--RoomName--" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+									{{Form::text('roomname', '', ['class' => 'form-control input-text','placeholder' => '--Roomname--'])}}
+									<!--<input type="text" th:Field="*{roomname}" name="name" class="form-control input-text" id="name" placeholder="--RoomName--" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />-->
 									<!--<select th:field="*{roomname}" class="form-control input-text">
 										<option value="">-- Select Room -- </option>
 										<option value="emathe">Emathe</option>
@@ -141,12 +156,13 @@
 								</div>
 								
 								
-								{{Form::text('username', '', ['class' => 'form-control input-text','placeholder' => 'Full Name'])}}
 								
-								<!--<div class="form-group">
-									<input type="text" th:Field="*{firstname}" name="name" class="form-control input-text" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-									<div class="validation"></div>
-								</div>-->
+								
+								<div class="form-group">
+									{{Form::text('fullname', '', ['class' => 'form-control input-text','placeholder' => 'Full Name'])}}
+									<!--<input type="text" th:Field="*{firstname}" name="name" class="form-control input-text" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+									<div class="validation"></div>-->
+								</div>
 								
 								
 								<!--<div class="form-group">
@@ -155,40 +171,48 @@
 								</div>-->
 
 
+								
+								<div class="form-group">
 								{{Form::text('email', '', ['class' => 'form-control input-text','placeholder' => 'example@email.com'])}}
-								<!--<div class="form-group">
-									<input th:field="*{email}" type="email" class="form-control input-text" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-									<div class="validation"></div>
-								</div>-->
-								
-								{{Form::text('phone', '', ['class' => 'form-control input-text','placeholder' => 'Phone'])}}
-								<!--<div class="form-group">
-									<input th:field="*{phone}" type="text" class="form-control input-text" name="phone" id="phone" placeholder="Phone" data-rule="minlen:10" data-msg="Please enter at least 10 numbers" />
-									<div class="validation"></div>
-								</div>-->
-								
-								{{Form::text('arrival', '', ['class' => 'form-control input-text','placeholder' => 'Arrival', 'name' => 'adate'])}}
-
-								<!--<div class="form-group">
-									<input type="text" class="form-control input-text" name="adate" placeholder="Arrival"/>
-
-									<div class="validation"></div>
+									<!--<input th:field="*{email}" type="email" class="form-control input-text" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+									<div class="validation"></div>-->
 								</div>
--->
-								{{Form::text('departure', '', ['class' => 'form-control input-text','placeholder' => 'Departure', 'name' => 'adate'])}}	
-								<!--<div class="form-group">
-									<input type="text" class="form-control input-text" name="adate" placeholder="Departure"/>
-									<div class="validation"></div>
-								</div>-->
+								
+								
+								<div class="form-group">
+								{{Form::text('phone', '', ['class' => 'form-control input-text','placeholder' => 'Phone'])}}
+									<!--<input th:field="*{phone}" type="text" class="form-control input-text" name="phone" id="phone" placeholder="Phone" data-rule="minlen:10" data-msg="Please enter at least 10 numbers" />
+									<div class="validation"></div>-->
+								</div>
+								
+								
+								<div class="form-group">
+								{{Form::date('arrival', '', ['class' => 'form-control input-text','placeholder' => 'Arrival'])}}
+									<!--<input type="text" class="form-control input-text" name="adate" placeholder="Arrival"/>
+
+									<div class="validation"></div>-->
+								</div>
+
+								
+								<div class="form-group">
+								{{Form::date('departure', '', ['class' => 'form-control input-text','placeholder' => 'Departure'])}}
+									<!--<input type="text" class="form-control input-text" name="adate" placeholder="Departure"/>
+									<div class="validation"></div>-->
+								</div>
 
 
+							
+								<div class="form-group">
 								{{Form::text('message', '', ['class' => 'form-control input-text text-area','placeholder' => 'Your Message', 'rows' => '5'])}}
-								<!--<div class="form-group">
-									<textarea class="form-control input-text text-area" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-									<div class="validation"></div>
-								</div>-->
+									<!--<textarea class="form-control input-text text-area" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+									<div class="validation"></div>-->
+								</div>
 					
-								<div class="text-center"><button type="submit" class="input-btn">Confirm!</button></div>
+								
+								<div class="text-center">
+									{{Form::submit('Confirm', ['class' => 'input-btn'])}}
+									<!--<button type="submit" class="input-btn">Confirm!</button>-->
+								</div>
 							</form>
 							{!! Form::close() !!}
 						</div>	

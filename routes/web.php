@@ -20,3 +20,5 @@ Route::get('/book', function () {
 });
 
 Route::post('/submit', 'messagesController@submit');
+
+Route::post('book/submit', 'bookingController@submit');
