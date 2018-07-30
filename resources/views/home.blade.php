@@ -83,17 +83,16 @@
 	<div class="container">
         <h2>About</h2>
         <hr class="abt-line">
-        <h6>Take a closer look into our amazing team. We won’t bite.</h6>
+        <h6>" You don't get a second chance to make a first impression." </h6>
 			<div class="row">
 				<div class="col-lg-6">
 					<p>
-						Located in vibrant, peaceful and a beautiful place, Dhulikhel Boutique hotel is trying to provide its service to the people in a friendly way.You can also enjoy the typical nepali architecture as windows
-						and exteriors are well carved from the experienced local architects to give you the feel of 
-						connecting to the nepali culture.Its designed to reflect its traditional 
-						cultural setting along with the nepali culture famous for its hospitality. 
+						Located in vibrant, peaceful and a beautiful surrounding, Dhulikhel Boutique Hotel, is a perfect blend of a modern lifestyle and nepali architecture providing  a mesmerizing stay and the best sleep you can get away from home.
+					    The interior and exterior are well carved andd crafted by the experienced local architects to get you the feel ofs
+						connecting to the nepali culture. 
+ 
 						<br>Come and get a unique experience of a hotel, not so far from the busy life of kathmandu 
-						yet not so near that you will be disturbed by the city life. we provide you with the service 
-						you deserve.
+						yet not so near that you will be disturbed by the city life. 
 						<br>Nepalase historical articraft culture and a modern lifestyle combined for a perfect stay and the best sleep you can get away from home.
 					</p>
 					<hr class="bl-line">
@@ -103,112 +102,9 @@
 				</div>	
         </div>
         
-        
+
     </div>
-</section><!--main-section team-end-->
-
-
-
-<!--<section class="main-section" id="service">main-section-start
-	<div class="container">
-    	<h2>Services</h2>
-    	<h6>We offer exceptional services and make sure you will leave the hotel on yur best mood and wanting more of the same.</h6>
-        <div class="row">
-        	<div class="col-lg-4 col-sm-6 wow fadeInLeft delay-05s">
-            	<div class="service-list">
-                	<div class="service-list-col1">
-                    	<i class="fa-paw"></i>
-                    </div>
-                	<div class="service-list-col2">
-                        <h3>Kitchen &amp; Dining</h3>
-                        <p>We serve Nepali, Continental, Chinese and Indian food. All are prepared by chefs
-							trained in each specialty and adapted to our quality requirements.</p>
-                    </div>
-                </div>
-                <div class="service-list">
-                	<div class="service-list-col1">
-                    	<i class="fa-gear"></i>
-                    </div>
-                	<div class="service-list-col2">
-                        <h3>Lakuri Bar</h3>
-                        <p>Its a Nepali style house named after the Lakuri tree just above the bar.It has a feel good factor because of the setting of the bar. It is stocked with a wide variety of drinks. You can enjoy the nepal made drinks 
-						(i.e wine made from rice) if you want. You can also always find the branded drinks
-						ready to be served just for you.</p>
-                    </div>
-                </div>
-                <div class="service-list">
-                	<div class="service-list-col1">
-                    	<i class="fa-apple"></i>
-                    </div>
-                	<div class="service-list-col2">
-                        <h3>WellNess Spa</h3>
-                        <p>Spa draws on ayurveda, Buddhist medicine and traditional rituals and treatments. People come here for healing and purification. After a session you will feel rejuvenated.</p>
-                    </div>
-                </div>
-                <div class="service-list">
-                	<div class="service-list-col1">
-                    	<i class="fa-medkit"></i>
-                    </div>
-                	<div class="service-list-col2">
-                        <h3>24/7 Support</h3>
-                        <p>Proin iaculis purus consequat sem digni ssim. Sem porttitora entum.</p>
-                    </div>
-                </div>
-            </div>
-            <figure class="col-lg-8 col-sm-6  text-right wow fadeInUp delay-02s">
-            	<img src="img/macbook-pro.png" alt="">
-            </figure>
-        
-        </div>
-	</div>
-</section>--><!--main-section-end-->
-
-
-
-<section class="main-section alabaster" id="services"><!--main-section alabaster-start-->
-	<div class="container">
-   			<h2>Our Services</h2>
-           		<hr class="service-line">
-            	<p class="services-pg">We offer exceptional services and make sure you will leave the hotel on yur best mood and wanting more of the same.</p>
-<!--    	<div class="row">
-			<figure class="col-lg-5 col-sm-4 wow fadeInLeft">
-            	<img  src="img/drink2.jpg" alt="">
-            </figure>
-        	<div class="col-lg-7 col-sm-8 featured-work">
-            	
-            	<div class="featured-box">
-                	<div class="featured-box-col1 wow fadeInRight delay-02s">
-                    	<i class="fa-magic"></i>
-                    </div>	
-                	<div class="featured-box-col2 wow fadeInRight delay-02s">
-                        <h3>Kitchen &amp; Dining</h3>
-                        <p>We serve Nepali, Continental, Chinese and Indian food. All are prepared by chefs
-							trained in each specialty and adapted to our quality requirements. </p>
-                    </div>    
-                </div>
-                <div class="featured-box">
-                	<div class="featured-box-col1 wow fadeInRight delay-04s">
-                    	<i class="fa-gift"></i>
-                    </div>	
-                	<div class="featured-box-col2 wow fadeInRight delay-04s">
-                        <h3>Lakuri bar</h3>
-                        <p>Its a Nepali style house named after the Lakuri tree just above the bar. It is stocked with a wide variety of drinks. You can enjoy the nepal made drinks 
-						(i.e wine made from rice) if you want. You can also always find the branded drinks
-						ready to be served just for you. </p>
-                    </div>    
-                </div>
-                <div class="featured-box">
-                	<div class="featured-box-col1 wow fadeInRight delay-06s">
-                    	<i class="fa-dashboard"></i>
-                    </div>	
-                	<div class="featured-box-col2 wow fadeInRight delay-06s">
-                        <h3>Wellness SPA</h3>
-                        <p>Spa draws on ayurveda, Buddhist medicine and traditional rituals and treatments. People come here for healing and purification. After a session you will feel rejuvenated.</p>
-                    </div>    
-                </div>
-                <a class="Learn-More" href="#">Learn More</a>
-            </div>
-        </div>-->
+</section>
         
         	<div id="myCarousel" class="carousel slide" data-ride="carousel">
 												
@@ -219,8 +115,8 @@
 									<img  src="img/bar.jpg" alt="">
 								</figure>
 								<div class="featured-box-col2 delay-04s">
-									<h3 class="carousel-h3">Lakuri bar</h3>
-									<p>Its a Nepali style house named after the Lakuri tree just above the bar. It is stocked with a wide variety of drinks. You can enjoy the nepal made drinks 
+									<h3 class="carousel-h3">Lakuri bar</h3> 
+									<p>Its a old nepali style house named after the Lakuri tree just above the bar. It is stocked with a wide variety of drinks. You can enjoy the nepal made drinks 
 									(i.e wine made from rice) if you want. You can also always find the branded drinks
 									ready to be served just for you. </p>
 								</div>    
@@ -232,8 +128,8 @@
 								
 								<div class="featured-box-col2 delay-02s">
 									<h3 class="carousel-h3">Kitchen &amp; Dining</h3>
-									<p>We serve Nepali, Continental, Chinese and Indian food. All are prepared by chefs
-										trained in each specialty and adapted to our quality requirements. </p>
+									<p>We serve Nepali, Continental, Chinese and Indian food. All the food items are prepared by chefs
+										trained in each speciality and adapted to our quality requirements. </p>
 								</div>   
 							</div>
 							<div class="item">
@@ -242,7 +138,7 @@
 								</figure>
 								<div class="featured-box-col2 delay-06s">
 									<h3 class="carousel-h3">Wellness SPA</h3>
-									<p>Spa draws on ayurveda, Buddhist medicine and traditional rituals and treatments. People come here for healing and purification. After a session you will feel rejuvenated.</p>
+									<p>Spa draws on ayurveda, Buddhist medicine and traditional rituals and treatments. People come here for healing and purification. After a session, you will feel rejuvenated.</p>
 								</div>  
 							</div>
 							
