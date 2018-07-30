@@ -20,3 +20,6 @@ Route::get('/book', function () {
 });
 
 Route::post('/submit', 'messagesController@submit');
+
+Route::get('/messages', 'messagesController@getMessages');
+
