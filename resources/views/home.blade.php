@@ -88,12 +88,12 @@
 				<div class="col-lg-6">
 					<p>
 						Located in vibrant, peaceful and a beautiful surrounding, Dhulikhel Boutique Hotel, is a perfect blend of a modern lifestyle and nepali architecture providing  a mesmerizing stay and the best sleep you can get away from home.
-					    The interior and exterior are well carved andd crafted by the experienced local architects to get you the feel ofs
+					    The interior and exterior are well carved andd crafted by the experienced local architects to get you the feel of
 						connecting to the nepali culture. 
  
 						<br>Come and get a unique experience of a hotel, not so far from the busy life of kathmandu 
 						yet not so near that you will be disturbed by the city life. 
-						<br>Nepalase historical articraft culture and a modern lifestyle combined for a perfect stay and the best sleep you can get away from home.
+						<br>
 					</p>
 					<hr class="bl-line">
 				</div>
