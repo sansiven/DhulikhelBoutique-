@@ -160,7 +160,7 @@
 										<p>The rooms available here are designed to give you the ultimate relaxation that 
 										your body needs from the hectic schedule you are currently in. All the rooms 
 										are well furnished and have been equipped with the attached bathroom. Each room 
-										has a balcony where you can enjoy the views.For More information about the rooms <a href="./book.html" class="room-click">Click Here</a>
+										has a balcony where you can enjoy the views.For More information about the rooms <a href={{URL::to("book")}} class="room-click">Click Here</a>
 									</p>
 									</div>  
 							</div>
@@ -201,67 +201,67 @@
                     <p>Print Design</p>-->
                 </div>
                 <div class="Portfolio-box exteriors">
-                	<a href=""><img src="img/exterior1.jpg" alt=""></a>	
+                	<img id='myImg' src="img/exterior1.jpg" alt="">
                 </div>
                 <div class=" Portfolio-box rooms">
-                	<a href=""><img src="img/room1.jpg" alt=""></a>	
+                	<img id='myImg' src="img/room1.jpg" alt="">
                 </div>
                 <div class=" Portfolio-box exteriors" >
-                	<a href="#"><img src="img/exterior3.jpg" alt=""></a>	
+                	<img id='myImg' src="img/exterior3.jpg" alt="">	
                 </div>
                 <div class=" Portfolio-box rooms">
-                	<a href="#"><img src="img/room3.jpg" alt=""></a>	
+                	<img id='myImg' src="img/room3.jpg" alt="">
                 </div>
                 <div class=" Portfolio-box rooms">
-                	<a href="#"><img src="img/room4.jpg" alt=""></a>	
+                	<img src="img/room4.jpg" alt="">	
                 </div>
                 <div class=" Portfolio-box rooms">
-                	<a href="#"><img src="img/room5.jpg" alt=""></a>
+                	<img src="img/room5.jpg" alt="">
                 </div>
                 <div class=" Portfolio-box rooms">
-                	<a href="#"><img src="img/room6.jpg" alt=""></a>
+                	<img src="img/room6.jpg" alt="">
                 </div>
                 <div class=" Portfolio-box exteriors">
-                	<a href="#"><img src="img/exterior4.jpg" alt=""></a>
+                	<img src="img/exterior4.jpg" alt="">
                 </div>
                 <div class=" Portfolio-box exteriors">
-                	<a href="#"><img src="img/exterior5.jpg" alt=""></a>
+                	<img src="img/exterior5.jpg" alt="">
                 </div>
                 <div class=" Portfolio-box food">
-                	<a href="#"><img src="img/food.jpg" alt=""></a>
+                	<img src="img/food.jpg" alt="">
                 </div>
                 <div class=" Portfolio-box food">
-                	<a href="#"><img src="img/food1.jpg" alt=""></a>
+                	<img src="img/food1.jpg" alt="">
                 </div>
                 <div class=" Portfolio-box food">
-                	<a href="#"><img src="img/food2.jpg" alt=""></a>
+                	<img src="img/food2.jpg" alt="">
+				</div>
+                <div class=" Portfolio-box food">
+                	<img src="img/food3.jpg" alt="">
                 </div>
                 <div class=" Portfolio-box food">
-                	<a href="#"><img src="img/food3.jpg" alt=""></a>
+                	<img src="img/food4.jpg" alt="">
                 </div>
                 <div class=" Portfolio-box food">
-                	<a href="#"><img src="img/food4.jpg" alt=""></a>
-                </div>
-                <div class=" Portfolio-box food">
-                	<a href="#"><img src="img/food5.jpg" alt=""></a>
+                	<img src="img/food5.jpg" alt="">
                 </div>
                 <!--<div class=" Portfolio-box food">
                 	<a href="#"><img src="img/food6.jpg" alt=""></a>
                 </div>-->
                 <div class=" Portfolio-box interior">
-                	<a href="#"><img src="img/interior.jpg" alt=""></a>
+                	<img src="img/interior.jpg" alt="">
                 </div>
                 <div class=" Portfolio-box interior">
-                	<a href="#"><img src="img/interior1.jpg" alt=""></a>
+                	<img src="img/interior1.jpg" alt="">
                 </div>
                 <div class=" Portfolio-box interior">
-                	<a href="#"><img src="img/interior2.jpg" alt=""></a>
+                	<img src="img/interior2.jpg" alt="">
                 </div>
                 <div class=" Portfolio-box interior">
-                	<a href="#"><img src="img/interior3.jpg" alt=""></a>
+                	<img src="img/interior3.jpg" alt="">
                 </div>
                 <div class=" Portfolio-box interior">
-                	<a href="#"><img src="img/interior4.jpg" alt=""></a>
+                	<img src="img/interior4.jpg" alt="">
                 </div>
     </div>
     <!-- The Modal -->

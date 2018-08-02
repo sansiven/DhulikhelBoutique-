@@ -236,7 +236,6 @@ color: #fff;
 
 .header--logo {
 	position: absolute;
-    border: 1px #11455d dashed;
     border-radius: 100px;
     text-align: center;
     background: beige;
@@ -1053,6 +1052,21 @@ added css*/
     .modal-content {
         width: 100%;
     }
+	
+	.close {
+    position: absolute;
+    top: 375px;
+    right: 75px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    }
+
+	.close:hover,
+	.close:focus {
+		color: red;
+		cursor: pointer;
+	}
 }
 
 
