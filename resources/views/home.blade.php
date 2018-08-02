@@ -27,14 +27,6 @@
 <script type="text/javascript" src="js/wow.js"></script>
 <script type="text/javascript" src="js/classie.js"></script>
 
-
-<!-- =======================================================
-    Theme Name: Knight
-    Theme URL: https://bootstrapmade.com/knight-free-bootstrap-theme/
-    Author: BootstrapMade
-    Author URL: https://bootstrapmade.com
-======================================================= -->
-
 </head>
 <body>
 
@@ -45,7 +37,7 @@
         </figure>	
         <h1 class="animated fadeInDown delay-07s">Welcome To Dhulikhel Boutique</h1>
         <ul class="we-create animated fadeInUp delay-1s">
-        	<li style="color: #f59236;">We are a hotel that loves crafting beautiful foods and environment for you to relax.</li>
+        	<li style="color: #f59236; font-weight:bolder;">We are a hotel that loves crafting beautiful foods and environment for you to relax.</li>
         </ul>
             <a class="link animated fadeInUp delay-1s servicelink" href={{URL::to("book")}}>Book a Room</a>
     </div>
@@ -74,12 +66,6 @@
 
 <section class="main-section team" id="about"><!--main-section team-start-->
 
-	<!--<div class=""></div>
-		<div class="">
-			<img src="img/booknow.png" alt="">
-			<button class="fl-rt book-btn">Book
-			</button>
-	</div>-->
 	<div class="container">
         <h2>About</h2>
         <hr class="abt-line">
@@ -107,14 +93,11 @@
     </div>
 </section><!--main-section team-end-->
 
-
-
 <section class="main-section alabaster" id="services"><!--main-section alabaster-start-->
 	<div class="container">
    			<h2>Our Services</h2>
            		<hr class="service-line">
             	<p class="services-pg">We offer exceptional services and make sure you will leave the hotel on yur best mood and wanting more of the same.</p>
-       
         	<div id="myCarousel" class="carousel slide" data-ride="carousel">
 												
 						<!-- Wrapper for slides -->
@@ -160,8 +143,13 @@
 										<p>The rooms available here are designed to give you the ultimate relaxation that 
 										your body needs from the hectic schedule you are currently in. All the rooms 
 										are well furnished and have been equipped with the attached bathroom. Each room 
+<<<<<<< HEAD
 										has a balcony where you can enjoy the views.For More information about the rooms <a href={{URL::to("book")}} class="room-click">Click Here</a>
 									</p>
+=======
+										has a balcony where you can enjoy the views.For More information about the rooms.<br> <a href={{URL::to("book")}} class="room-click">Click Here</a>
+										</p>
+>>>>>>> 508b9ce0803c3d28d7a51f86d52a46f5cd8e4836
 									</div>  
 							</div>
 							<!--<div class="item">
