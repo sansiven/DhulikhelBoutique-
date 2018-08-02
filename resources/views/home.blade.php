@@ -27,8 +27,6 @@
 <script type="text/javascript" src="js/wow.js"></script>
 <script type="text/javascript" src="js/classie.js"></script>
 
-
-
 </head>
 <body>
 
@@ -41,7 +39,7 @@
         <ul class="we-create animated fadeInUp delay-1s">
         	<li style="color: #f59236; font-weight:bolder;">We are a hotel that loves crafting beautiful foods and environment for you to relax.</li>
         </ul>
-            <a class="link animated fadeInUp delay-1s servicelink" href={{URL::to('/book')}}>Book a Room</a>
+            <a class="link animated fadeInUp delay-1s servicelink" href={{URL::to("book")}}>Book a Room</a>
     </div>
 </header><!--header-end-->
 
@@ -71,7 +69,7 @@
 	<div class="container">
         <h2>About</h2>
         <hr class="abt-line">
-        <h6>Take a closer look into our amazing team. We won’t bite.</h6>
+        <h6>You don't get a second chance to make first impression.</h6>
 			<div class="row">
 				<div class="col-lg-6">
 					<p>
@@ -100,7 +98,6 @@
    			<h2>Our Services</h2>
            		<hr class="service-line">
             	<p class="services-pg">We offer exceptional services and make sure you will leave the hotel on yur best mood and wanting more of the same.</p>
- 
         	<div id="myCarousel" class="carousel slide" data-ride="carousel">
 												
 						<!-- Wrapper for slides -->
@@ -171,7 +168,7 @@
     	<h6>Fresh photos of area in and out of Hotel.</h6>
       <div class="portfolioFilter">  
         <ul class="Portfolio-nav wow fadeIn delay-02s">
-        	<!--<li><a href="#" data-filter="*" class="current" >All</a></li>-->
+        	<li><a href="#" data-filter="*" class="current" >All</a></li>
             <li><a href="#" data-filter=".rooms" >Rooms</a></li>
             <li><a href="#" data-filter=".food" >Food</a></li>
             <li><a href="#" data-filter=".exteriors" >Exteriors</a></li>
@@ -180,17 +177,17 @@
        </div> 
         
 	</div>
-    <div class="portfolioContainer wow fadeInUp delay-04s">
+    <div class="portfolioContainer wow fadeInUp delay-04s allgallery" >
             	<div class=" Portfolio-box exteriors">
                 	<img id='myImg' src="img/exterior.jpg" alt="">	
                 	<!--<h3>Foto Album</h3>
                     <p>Print Design</p>-->
                 </div>
                 <div class="Portfolio-box exteriors">
-                	<a href="#"><img src="img/exterior1.jpg" alt=""></a>	
+                	<a href=""><img src="img/exterior1.jpg" alt=""></a>	
                 </div>
                 <div class=" Portfolio-box rooms">
-                	<a href="#"><img src="img/room1.jpg" alt=""></a>	
+                	<a href=""><img src="img/room1.jpg" alt=""></a>	
                 </div>
                 <div class=" Portfolio-box exteriors" >
                 	<a href="#"><img src="img/exterior3.jpg" alt=""></a>	
@@ -323,7 +320,7 @@
                     <form action="" method="post" role="form" class="contactForm">
                         <div class="form-group">
                            
-                           {{Form::text('name', '', ['class' => 'form-control input-text','placeholder' => 'You Name'])}}
+                           {{Form::text('name', '', ['class' => 'form-control input-text','placeholder' => 'Your Name'])}}
                             <!--<input type="text" name="name" class="form-control input-text" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                             <div class="validation"></div>-->
                         </div>
@@ -374,13 +371,9 @@
         <p class="credits">Emathe Marg,Municipality Road,Dhulikhel 45200.</p>
         <span class="copyright">&copy; Dhulikhel Boutique Hotel. All Rights Reserved</span>
         <div class="credits">
-            <!-- 
-                All the links in the footer should remain intact. 
-                You can delete the links only if you purchased the pro version.
-                Licensing information: https://bootstrapmade.com/license/
-                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Knight
-            -->
-            <a href="https://bootstrapmade.com/free-business-bootstrap-themes-website-templates/">Website Developed </a> by <a href="https://bootstrapmade.com/">Kompany</a>
+           
+           
+            <!--<a href="https://bootstrapmade.com/free-business-bootstrap-themes-website-templates/">Website Developed </a> by <a href="https://bootstrapmade.com/">Kompany</a>-->
         </div>
     </div>
 </footer>
