@@ -28,7 +28,7 @@ class messagesController extends Controller
 		
 		//redirect
 		
-		return redirect('/')->with('success', 'Message Sent');
+		return redirect('/')->with('success', 'Message Sent, will reply soon.');
 	}
 	
 	

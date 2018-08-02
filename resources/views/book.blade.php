@@ -47,14 +47,14 @@
 				<a href="#header"><img src="img/new%20logo.png" alt="dhulikhel"></a>
 			</div>
 			<ul class="main-nav fl-rt">
-				<li><a href="./index.html">Home</a></li>
-			   <li><a href="./index.html">About</a></li>
-				<li><a href="./index.html">Services</a></li>
-				<li><a href="./index.html">Gallery</a></li>
+				<li><a href={{URL::to('/')}}>Home</a></li>
+			   <li><a href={{URL::to('/#about')}}>About</a></li>
+				<li><a href={{URL::to('/#services')}}>Services</a></li>
+				<li><a href={{URL::to('/#Portfolio')}}>Gallery</a></li>
 				<!--<li class="small-logo"><a href="#header"><img src="img/new%20logo.png" alt=""></a></li>-->
-				<li><a href="./index.html">Review</a></li>
+				<li><a href={{URL::to('/#review')}}>Review</a></li>
 
-				<li><a href="./index.html">Contact</a></li>
+				<li><a href={{URL::to('/#contact')}}>Contact</a></li>
 			</ul>
 			<a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
 		</div>

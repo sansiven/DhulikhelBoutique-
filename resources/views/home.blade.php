@@ -47,7 +47,7 @@
         <ul class="we-create animated fadeInUp delay-1s">
         	<li style="color: #f59236;">We are a hotel that loves crafting beautiful foods and environment for you to relax.</li>
         </ul>
-            <a class="link animated fadeInUp delay-1s servicelink" href="book">Book a Room</a>
+            <a class="link animated fadeInUp delay-1s servicelink" href={{URL::to("book")}}>Book a Room</a>
     </div>
 </header><!--header-end-->
 
@@ -201,10 +201,10 @@
                     <p>Print Design</p>-->
                 </div>
                 <div class="Portfolio-box exteriors">
-                	<a href="#"><img src="img/exterior1.jpg" alt=""></a>	
+                	<a href=""><img src="img/exterior1.jpg" alt=""></a>	
                 </div>
                 <div class=" Portfolio-box rooms">
-                	<a href="#"><img src="img/room1.jpg" alt=""></a>	
+                	<a href=""><img src="img/room1.jpg" alt=""></a>	
                 </div>
                 <div class=" Portfolio-box exteriors" >
                 	<a href="#"><img src="img/exterior3.jpg" alt=""></a>	
