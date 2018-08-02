@@ -26,14 +26,8 @@
 <script type="text/javascript" src="js/jquery.isotope.js"></script>
 <script type="text/javascript" src="js/wow.js"></script>
 <script type="text/javascript" src="js/classie.js"></script>
-<script src="contactform/contactform.js"></script>
 
-<!-- =======================================================
-    Theme Name: Knight
-    Theme URL: https://bootstrapmade.com/knight-free-bootstrap-theme/
-    Author: BootstrapMade
-    Author URL: https://bootstrapmade.com
-======================================================= -->
+
 
 </head>
 <body>
@@ -45,9 +39,9 @@
         </figure>	
         <h1 class="animated fadeInDown delay-07s">Welcome To Dhulikhel Boutique</h1>
         <ul class="we-create animated fadeInUp delay-1s">
-        	<li style="color: #f59236;">We are a hotel that loves crafting beautiful foods and environment for you to relax.</li>
+        	<li style="color: #f59236; font-weight:bolder;">We are a hotel that loves crafting beautiful foods and environment for you to relax.</li>
         </ul>
-            <a class="link animated fadeInUp delay-1s servicelink" href="book">Book a Room</a>
+            <a class="link animated fadeInUp delay-1s servicelink" href={{URL::to('/book')}}>Book a Room</a>
     </div>
 </header><!--header-end-->
 
@@ -74,12 +68,6 @@
 
 <section class="main-section team" id="about"><!--main-section team-start-->
 
-	<!--<div class=""></div>
-		<div class="">
-			<img src="img/booknow.png" alt="">
-			<button class="fl-rt book-btn">Book
-			</button>
-	</div>-->
 	<div class="container">
         <h2>About</h2>
         <hr class="abt-line">
@@ -107,109 +95,12 @@
     </div>
 </section><!--main-section team-end-->
 
-
-
-<!--<section class="main-section" id="service">main-section-start
-	<div class="container">
-    	<h2>Services</h2>
-    	<h6>We offer exceptional services and make sure you will leave the hotel on yur best mood and wanting more of the same.</h6>
-        <div class="row">
-        	<div class="col-lg-4 col-sm-6 wow fadeInLeft delay-05s">
-            	<div class="service-list">
-                	<div class="service-list-col1">
-                    	<i class="fa-paw"></i>
-                    </div>
-                	<div class="service-list-col2">
-                        <h3>Kitchen &amp; Dining</h3>
-                        <p>We serve Nepali, Continental, Chinese and Indian food. All are prepared by chefs
-							trained in each specialty and adapted to our quality requirements.</p>
-                    </div>
-                </div>
-                <div class="service-list">
-                	<div class="service-list-col1">
-                    	<i class="fa-gear"></i>
-                    </div>
-                	<div class="service-list-col2">
-                        <h3>Lakuri Bar</h3>
-                        <p>Its a Nepali style house named after the Lakuri tree just above the bar.It has a feel good factor because of the setting of the bar. It is stocked with a wide variety of drinks. You can enjoy the nepal made drinks 
-						(i.e wine made from rice) if you want. You can also always find the branded drinks
-						ready to be served just for you.</p>
-                    </div>
-                </div>
-                <div class="service-list">
-                	<div class="service-list-col1">
-                    	<i class="fa-apple"></i>
-                    </div>
-                	<div class="service-list-col2">
-                        <h3>WellNess Spa</h3>
-                        <p>Spa draws on ayurveda, Buddhist medicine and traditional rituals and treatments. People come here for healing and purification. After a session you will feel rejuvenated.</p>
-                    </div>
-                </div>
-                <div class="service-list">
-                	<div class="service-list-col1">
-                    	<i class="fa-medkit"></i>
-                    </div>
-                	<div class="service-list-col2">
-                        <h3>24/7 Support</h3>
-                        <p>Proin iaculis purus consequat sem digni ssim. Sem porttitora entum.</p>
-                    </div>
-                </div>
-            </div>
-            <figure class="col-lg-8 col-sm-6  text-right wow fadeInUp delay-02s">
-            	<img src="img/macbook-pro.png" alt="">
-            </figure>
-        
-        </div>
-	</div>
-</section>--><!--main-section-end-->
-
-
-
 <section class="main-section alabaster" id="services"><!--main-section alabaster-start-->
 	<div class="container">
    			<h2>Our Services</h2>
            		<hr class="service-line">
             	<p class="services-pg">We offer exceptional services and make sure you will leave the hotel on yur best mood and wanting more of the same.</p>
-<!--    	<div class="row">
-			<figure class="col-lg-5 col-sm-4 wow fadeInLeft">
-            	<img  src="img/drink2.jpg" alt="">
-            </figure>
-        	<div class="col-lg-7 col-sm-8 featured-work">
-            	
-            	<div class="featured-box">
-                	<div class="featured-box-col1 wow fadeInRight delay-02s">
-                    	<i class="fa-magic"></i>
-                    </div>	
-                	<div class="featured-box-col2 wow fadeInRight delay-02s">
-                        <h3>Kitchen &amp; Dining</h3>
-                        <p>We serve Nepali, Continental, Chinese and Indian food. All are prepared by chefs
-							trained in each specialty and adapted to our quality requirements. </p>
-                    </div>    
-                </div>
-                <div class="featured-box">
-                	<div class="featured-box-col1 wow fadeInRight delay-04s">
-                    	<i class="fa-gift"></i>
-                    </div>	
-                	<div class="featured-box-col2 wow fadeInRight delay-04s">
-                        <h3>Lakuri bar</h3>
-                        <p>Its a Nepali style house named after the Lakuri tree just above the bar. It is stocked with a wide variety of drinks. You can enjoy the nepal made drinks 
-						(i.e wine made from rice) if you want. You can also always find the branded drinks
-						ready to be served just for you. </p>
-                    </div>    
-                </div>
-                <div class="featured-box">
-                	<div class="featured-box-col1 wow fadeInRight delay-06s">
-                    	<i class="fa-dashboard"></i>
-                    </div>	
-                	<div class="featured-box-col2 wow fadeInRight delay-06s">
-                        <h3>Wellness SPA</h3>
-                        <p>Spa draws on ayurveda, Buddhist medicine and traditional rituals and treatments. People come here for healing and purification. After a session you will feel rejuvenated.</p>
-                    </div>    
-                </div>
-                <a class="Learn-More" href="#">Learn More</a>
-            </div>
-        </div>-->
-        
+ 
         	<div id="myCarousel" class="carousel slide" data-ride="carousel">
 												
 						<!-- Wrapper for slides -->
@@ -253,9 +144,10 @@
 								<div class="featured-box-col2 delay-06s">
 									<h3 class="carousel-h3">Accomodation</h3>
 										<p>The rooms available here are designed to give you the ultimate relaxation that 
-	your body needs from the hectic schedule you are currently in. All the rooms 
-	are well furnished and have been equipped with the attached bathroom. Each room 
-	has a balcony where you can enjoy the views.For More information about the rooms <a href="./book.html" class="room-click">Click Here</a></p>
+										your body needs from the hectic schedule you are currently in. All the rooms 
+										are well furnished and have been equipped with the attached bathroom. Each room 
+										has a balcony where you can enjoy the views.For More information about the rooms.<br> <a href={{URL::to("book")}} class="room-click">Click Here</a>
+										</p>
 									</div>  
 							</div>
 							<!--<div class="item">

@@ -28,26 +28,21 @@ class bookingController extends Controller
 		$booker->message= $request->input('message');
 		
 		
-		$room = Booker::where('roomname', '=', $booker->roomname)
+		//$room = Booker::where('roomname', '=', $booker->roomname)
 		
 		//$rooms = DB::table('booker')->select('name', 'roomname as user_room')->first();
-		if ($room) {
+		/*if ($room) {
 			return redirect('/book')->with('failed', 'Not booked');
 		}
 		else {
 			//save a booker
 			$booker->save();
 			return redirect('/book')->with('success', 'Message Sent');
-		}
+		}*/
 		
-		
-		
-		
-	
-		
-		//redirect
-		
-		//return redirect('/book')->with('success', 'Message Sent');
+		//save a booker
+		$booker->save();
+		return redirect('/book')->with('success', 'Message Sent');
 	}
 	
 	

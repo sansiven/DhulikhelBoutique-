@@ -26,18 +26,9 @@
 <script type="text/javascript" src="js/jquery.isotope.js"></script>
 <script type="text/javascript" src="js/wow.js"></script>
 <script type="text/javascript" src="js/classie.js"></script>
-<script src="contactform/contactform.js"></script>
 
 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
 
-<!-- =======================================================
-    Theme Name: Knight
-    Theme URL: https://bootstrapmade.com/knight-free-bootstrap-theme/
-    Author: BootstrapMade
-    Author URL: https://bootstrapmade.com
-======================================================= -->
 
 </head>
 <body>
@@ -48,14 +39,14 @@
 				<a href="#header"><img src="img/new%20logo.png" alt="dhulikhel"></a>
 			</div>
 			<ul class="main-nav fl-rt">
-				<li><a href="./index.html">Home</a></li>
-			   <li><a href="./index.html">About</a></li>
-				<li><a href="./index.html">Services</a></li>
-				<li><a href="./index.html">Gallery</a></li>
+				<li><a href={{URL::to('/')}}>Home</a></li>
+			   <li><a href={{URL::to('/#about')}}>About</a></li>
+				<li><a href={{URL::to('/#services')}}>Services</a></li>
+				<li><a href={{URL::to('/#Portfolio')}}>Gallery</a></li>
 				<!--<li class="small-logo"><a href="#header"><img src="img/new%20logo.png" alt=""></a></li>-->
-				<li><a href="./index.html">Review</a></li>
+				<li><a href={{URL::to('/#review')}}>Review</a></li>
 
-				<li><a href="./index.html">Contact</a></li>
+				<li><a href={{URL::to('/#contact')}}>Contact</a></li>
 			</ul>
 			<a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
 		</div>
@@ -163,15 +154,7 @@
 									<!--<input type="text" th:Field="*{firstname}" name="name" class="form-control input-text" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
 									<div class="validation"></div>-->
 								</div>
-								
-								
-								<!--<div class="form-group">
-									<input th:field="*{lastname}" type="text" class="form-control input-text" name="lname" id="email" placeholder="Your Last Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-									<div class="validation"></div>
-								</div>-->
-
-
-								
+																				
 								<div class="form-group">
 								{{Form::text('email', '', ['class' => 'form-control input-text','placeholder' => 'example@email.com'])}}
 									<!--<input th:field="*{email}" type="email" class="form-control input-text" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
@@ -226,15 +209,7 @@
         <div class="footer-logo"><a href="#"><img src="img/new%20logo.png" alt=""></a></div>
         <p class="credits">Emathe Marg,Municipality Road,Dhulikhel 45200.</p>
         <span class="copyright">&copy; Dhulikhel Boutique Hotel. All Rights Reserved</span>
-        <div class="credits">
-            <!-- 
-                All the links in the footer should remain intact. 
-                You can delete the links only if you purchased the pro version.
-                Licensing information: https://bootstrapmade.com/license/
-                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Knight
-            -->
-            <a href="https://bootstrapmade.com/free-business-bootstrap-themes-website-templates/">Website Developed </a> by <a href="https://bootstrapmade.com/">Kompany</a>
-        </div>
+        
     </div>
 </footer>
 
@@ -271,21 +246,6 @@
 			});
 
 		});
-	</script>
-
-	
-	<script>
-		 $(document).ready(function(){
-			  var date_input=$('input[name="adate"]'); //our date input has the name "date"
-			  var container=$('.form form').length>0 ? $('.form form').parent() : "body";
-			  var options={
-				format: 'yyyy-mm-dd',
-				container: container,
-				todayHighlight: true,
-				autoclose: true,
-			  };
-			  date_input.datepicker(options);
-			})	
 	</script>
 	
 </body>
