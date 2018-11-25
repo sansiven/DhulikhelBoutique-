@@ -30,3 +30,6 @@ Route::get('/messages', 'messagesController@getMessages');
 
 Route::get('/book', 'bookingController@book');
 
+//route for generated controller
+Route::resource('bookings', 'bookingsController');
+
