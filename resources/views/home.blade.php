@@ -26,14 +26,6 @@
 <script type="text/javascript" src="js/jquery.isotope.js"></script>
 <script type="text/javascript" src="js/wow.js"></script>
 <script type="text/javascript" src="js/classie.js"></script>
-<script src="contactform/contactform.js"></script>
-
-<!-- =======================================================
-    Theme Name: Knight
-    Theme URL: https://bootstrapmade.com/knight-free-bootstrap-theme/
-    Author: BootstrapMade
-    Author URL: https://bootstrapmade.com
-======================================================= -->
 
 </head>
 <body>
@@ -45,9 +37,9 @@
         </figure>	
         <h1 class="animated fadeInDown delay-07s">Welcome To Dhulikhel Boutique</h1>
         <ul class="we-create animated fadeInUp delay-1s">
-        	<li style="color: #f59236;">We are a hotel that loves crafting beautiful foods and environment for you to relax.</li>
+        	<li style="color: #f59236; font-weight:bolder;">We are a hotel that loves crafting beautiful foods and environment for you to relax.</li>
         </ul>
-            <a class="link animated fadeInUp delay-1s servicelink" href="book">Book a Room</a>
+            <a class="link animated fadeInUp delay-1s servicelink" href={{URL::to("book")}}>Book a Room</a>
     </div>
 </header><!--header-end-->
 
@@ -74,26 +66,21 @@
 
 <section class="main-section team" id="about"><!--main-section team-start-->
 
-	<!--<div class=""></div>
-		<div class="">
-			<img src="img/booknow.png" alt="">
-			<button class="fl-rt book-btn">Book
-			</button>
-	</div>-->
 	<div class="container">
         <h2>About</h2>
         <hr class="abt-line">
-        <h6>" You don't get a second chance to make a first impression." </h6>
+        <h6>You don't get a second chance to make first impression.</h6>
 			<div class="row">
 				<div class="col-lg-6">
 					<p>
-						Located in vibrant, peaceful and a beautiful surrounding, Dhulikhel Boutique Hotel, is a perfect blend of a modern lifestyle and nepali architecture providing  a mesmerizing stay and the best sleep you can get away from home.
-					    The interior and exterior are well carved andd crafted by the experienced local architects to get you the feel of
-						connecting to the nepali culture. 
- 
+						Located in vibrant, peaceful and a beautiful place, Dhulikhel Boutique hotel is trying to provide its service to the people in a friendly way.You can also enjoy the typical nepali architecture as windows
+						and exteriors are well carved from the experienced local architects to give you the feel of 
+						connecting to the nepali culture.Its designed to reflect its traditional 
+						cultural setting along with the nepali culture famous for its hospitality. 
 						<br>Come and get a unique experience of a hotel, not so far from the busy life of kathmandu 
-						yet not so near that you will be disturbed by the city life. 
-						<br>
+						yet not so near that you will be disturbed by the city life. we provide you with the service 
+						you deserve.
+						<br>Nepalase historical articraft culture and a modern lifestyle combined for a perfect stay and the best sleep you can get away from home.
 					</p>
 					<hr class="bl-line">
 				</div>
@@ -102,10 +89,15 @@
 				</div>	
         </div>
         
-
-    </div>
-</section>
         
+    </div>
+</section><!--main-section team-end-->
+
+<section class="main-section alabaster" id="services"><!--main-section alabaster-start-->
+	<div class="container">
+   			<h2>Our Services</h2>
+           		<hr class="service-line">
+            	<p class="services-pg">We offer exceptional services and make sure you will leave the hotel on yur best mood and wanting more of the same.</p>
         	<div id="myCarousel" class="carousel slide" data-ride="carousel">
 												
 						<!-- Wrapper for slides -->
@@ -115,8 +107,8 @@
 									<img  src="img/bar.jpg" alt="">
 								</figure>
 								<div class="featured-box-col2 delay-04s">
-									<h3 class="carousel-h3">Lakuri bar</h3> 
-									<p>Its a old nepali style house named after the Lakuri tree just above the bar. It is stocked with a wide variety of drinks. You can enjoy the nepal made drinks 
+									<h3 class="carousel-h3">Lakuri bar</h3>
+									<p>Its a Nepali style house named after the Lakuri tree just above the bar. It is stocked with a wide variety of drinks. You can enjoy the nepal made drinks 
 									(i.e wine made from rice) if you want. You can also always find the branded drinks
 									ready to be served just for you. </p>
 								</div>    
@@ -128,8 +120,8 @@
 								
 								<div class="featured-box-col2 delay-02s">
 									<h3 class="carousel-h3">Kitchen &amp; Dining</h3>
-									<p>We serve Nepali, Continental, Chinese and Indian food. All the food items are prepared by chefs
-										trained in each speciality and adapted to our quality requirements. </p>
+									<p>We serve Nepali, Continental, Chinese and Indian food. All are prepared by chefs
+										trained in each specialty and adapted to our quality requirements. </p>
 								</div>   
 							</div>
 							<div class="item">
@@ -138,7 +130,7 @@
 								</figure>
 								<div class="featured-box-col2 delay-06s">
 									<h3 class="carousel-h3">Wellness SPA</h3>
-									<p>Spa draws on ayurveda, Buddhist medicine and traditional rituals and treatments. People come here for healing and purification. After a session, you will feel rejuvenated.</p>
+									<p>Spa draws on ayurveda, Buddhist medicine and traditional rituals and treatments. People come here for healing and purification. After a session you will feel rejuvenated.</p>
 								</div>  
 							</div>
 							
@@ -149,9 +141,15 @@
 								<div class="featured-box-col2 delay-06s">
 									<h3 class="carousel-h3">Accomodation</h3>
 										<p>The rooms available here are designed to give you the ultimate relaxation that 
-	your body needs from the hectic schedule you are currently in. All the rooms 
-	are well furnished and have been equipped with the attached bathroom. Each room 
-	has a balcony where you can enjoy the views.For More information about the rooms <a href="./book.html" class="room-click">Click Here</a></p>
+										your body needs from the hectic schedule you are currently in. All the rooms 
+										are well furnished and have been equipped with the attached bathroom. Each room 
+<<<<<<< HEAD
+										has a balcony where you can enjoy the views.For More information about the rooms <a href={{URL::to("book")}} class="room-click">Click Here</a>
+									</p>
+=======
+										has a balcony where you can enjoy the views.For More information about the rooms.<br> <a href={{URL::to("book")}} class="room-click">Click Here</a>
+										</p>
+>>>>>>> 508b9ce0803c3d28d7a51f86d52a46f5cd8e4836
 									</div>  
 							</div>
 							<!--<div class="item">
@@ -175,7 +173,7 @@
     	<h6>Fresh photos of area in and out of Hotel.</h6>
       <div class="portfolioFilter">  
         <ul class="Portfolio-nav wow fadeIn delay-02s">
-        	<!--<li><a href="#" data-filter="*" class="current" >All</a></li>-->
+        	<li><a href="#" data-filter="*" class="current" >All</a></li>
             <li><a href="#" data-filter=".rooms" >Rooms</a></li>
             <li><a href="#" data-filter=".food" >Food</a></li>
             <li><a href="#" data-filter=".exteriors" >Exteriors</a></li>
@@ -184,74 +182,74 @@
        </div> 
         
 	</div>
-    <div class="portfolioContainer wow fadeInUp delay-04s">
+    <div class="portfolioContainer wow fadeInUp delay-04s allgallery" >
             	<div class=" Portfolio-box exteriors">
                 	<img id='myImg' src="img/exterior.jpg" alt="">	
                 	<!--<h3>Foto Album</h3>
                     <p>Print Design</p>-->
                 </div>
                 <div class="Portfolio-box exteriors">
-                	<a href="#"><img src="img/exterior1.jpg" alt=""></a>	
+                	<img id='myImg' src="img/exterior1.jpg" alt="">
                 </div>
                 <div class=" Portfolio-box rooms">
-                	<a href="#"><img src="img/room1.jpg" alt=""></a>	
+                	<img id='myImg' src="img/room1.jpg" alt="">
                 </div>
                 <div class=" Portfolio-box exteriors" >
-                	<a href="#"><img src="img/exterior3.jpg" alt=""></a>	
+                	<img id='myImg' src="img/exterior3.jpg" alt="">	
                 </div>
                 <div class=" Portfolio-box rooms">
-                	<a href="#"><img src="img/room3.jpg" alt=""></a>	
+                	<img id='myImg' src="img/room3.jpg" alt="">
                 </div>
                 <div class=" Portfolio-box rooms">
-                	<a href="#"><img src="img/room4.jpg" alt=""></a>	
+                	<img src="img/room4.jpg" alt="">	
                 </div>
                 <div class=" Portfolio-box rooms">
-                	<a href="#"><img src="img/room5.jpg" alt=""></a>
+                	<img src="img/room5.jpg" alt="">
                 </div>
                 <div class=" Portfolio-box rooms">
-                	<a href="#"><img src="img/room6.jpg" alt=""></a>
+                	<img src="img/room6.jpg" alt="">
                 </div>
                 <div class=" Portfolio-box exteriors">
-                	<a href="#"><img src="img/exterior4.jpg" alt=""></a>
+                	<img src="img/exterior4.jpg" alt="">
                 </div>
                 <div class=" Portfolio-box exteriors">
-                	<a href="#"><img src="img/exterior5.jpg" alt=""></a>
+                	<img src="img/exterior5.jpg" alt="">
                 </div>
                 <div class=" Portfolio-box food">
-                	<a href="#"><img src="img/food.jpg" alt=""></a>
+                	<img src="img/food.jpg" alt="">
                 </div>
                 <div class=" Portfolio-box food">
-                	<a href="#"><img src="img/food1.jpg" alt=""></a>
+                	<img src="img/food1.jpg" alt="">
                 </div>
                 <div class=" Portfolio-box food">
-                	<a href="#"><img src="img/food2.jpg" alt=""></a>
+                	<img src="img/food2.jpg" alt="">
+				</div>
+                <div class=" Portfolio-box food">
+                	<img src="img/food3.jpg" alt="">
                 </div>
                 <div class=" Portfolio-box food">
-                	<a href="#"><img src="img/food3.jpg" alt=""></a>
+                	<img src="img/food4.jpg" alt="">
                 </div>
                 <div class=" Portfolio-box food">
-                	<a href="#"><img src="img/food4.jpg" alt=""></a>
-                </div>
-                <div class=" Portfolio-box food">
-                	<a href="#"><img src="img/food5.jpg" alt=""></a>
+                	<img src="img/food5.jpg" alt="">
                 </div>
                 <!--<div class=" Portfolio-box food">
                 	<a href="#"><img src="img/food6.jpg" alt=""></a>
                 </div>-->
                 <div class=" Portfolio-box interior">
-                	<a href="#"><img src="img/interior.jpg" alt=""></a>
+                	<img src="img/interior.jpg" alt="">
                 </div>
                 <div class=" Portfolio-box interior">
-                	<a href="#"><img src="img/interior1.jpg" alt=""></a>
+                	<img src="img/interior1.jpg" alt="">
                 </div>
                 <div class=" Portfolio-box interior">
-                	<a href="#"><img src="img/interior2.jpg" alt=""></a>
+                	<img src="img/interior2.jpg" alt="">
                 </div>
                 <div class=" Portfolio-box interior">
-                	<a href="#"><img src="img/interior3.jpg" alt=""></a>
+                	<img src="img/interior3.jpg" alt="">
                 </div>
                 <div class=" Portfolio-box interior">
-                	<a href="#"><img src="img/interior4.jpg" alt=""></a>
+                	<img src="img/interior4.jpg" alt="">
                 </div>
     </div>
     <!-- The Modal -->
@@ -327,7 +325,7 @@
                     <form action="" method="post" role="form" class="contactForm">
                         <div class="form-group">
                            
-                           {{Form::text('name', '', ['class' => 'form-control input-text','placeholder' => 'You Name'])}}
+                           {{Form::text('name', '', ['class' => 'form-control input-text','placeholder' => 'Your Name'])}}
                             <!--<input type="text" name="name" class="form-control input-text" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                             <div class="validation"></div>-->
                         </div>
@@ -378,13 +376,9 @@
         <p class="credits">Emathe Marg,Municipality Road,Dhulikhel 45200.</p>
         <span class="copyright">&copy; Dhulikhel Boutique Hotel. All Rights Reserved</span>
         <div class="credits">
-            <!-- 
-                All the links in the footer should remain intact. 
-                You can delete the links only if you purchased the pro version.
-                Licensing information: https://bootstrapmade.com/license/
-                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Knight
-            -->
-            <a href="https://bootstrapmade.com/free-business-bootstrap-themes-website-templates/">Website Developed </a> by <a href="https://bootstrapmade.com/">Kompany</a>
+           
+           
+            <!--<a href="https://bootstrapmade.com/free-business-bootstrap-themes-website-templates/">Website Developed </a> by <a href="https://bootstrapmade.com/">Kompany</a>-->
         </div>
     </div>
 </footer>

@@ -15,8 +15,18 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('/home', function () {
+    return view('home');
+});
+
 Route::get('/book', function () {
 	return view('book');
 });
 
 Route::post('/submit', 'messagesController@submit');
+
+
+Route::post('book/submit', 'bookingController@submit');
+
+Route::get('/messages', 'messagesController@getMessages');
+
