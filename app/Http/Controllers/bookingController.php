@@ -4,10 +4,14 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Booker;
+use Mail;
 
 class bookingController extends Controller
 {
-   	public function submit(Request $request){
+public function book(){
+	return view('book');
+}
+	public function submit(Request $request){
 		$this->validate($request, [
 			'fullname' => 'required',
 			'email' => 'required',

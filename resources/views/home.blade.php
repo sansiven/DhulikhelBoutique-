@@ -1,10 +1,32 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, maximum-scale=1">
+<title>Dhulikhel Boutique Hotel | Best hotel in dhulikhel, Nepal </title>
+<meta name="robots" content="index,follow">
+<meta name="Googlebot" content="index, follow"/>
+<meta name="distribution" content="Global">
+<meta name="revisit-after" content="2 Days" />
+<meta name="classification" content="Hotel, Hotels in Nepal" />
+<meta name="category" content="Hotel, Hotels in Nepal" />
+<meta name="language" content="en-us" />
+<link rel="canonical" href="http://www.dhulikhelboutiquehotel.com/" />
+<base url="http://www.dhulikhelboutiquehotel.com/"/>
 
-<title>Dhulikhel Boutique</title>
+<meta name="viewport" content="width=device-width, maximum-scale=1">
+<meta name="description" content="Dhulikhel Boutique Hotel is one of the best boutique hotel located at Dhulikhel, Nepal. Come for a unique experience of the hotel with a great wooden architecture in dhulikhel." />
+<meta name="keywords" content="Dhulikhel Boutique Hotel, boutique, Himalayas,best hotel, luxury,good food,Reservation, Travel Nepal,Travel Dhulikhel, Accommodation Nepal, Accommodation Dhulikhel" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129771120-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-129771120-1');
+</script>
+
+
 <link rel="icon" href="img/new%20logo.png" type="image/png">
 <link rel="shortcut icon" href="img/new%20logo.png" type="img/x-icon">
 
@@ -39,7 +61,7 @@
         <ul class="we-create animated fadeInUp delay-1s">
         	<li style="color: #f59236; font-weight:bolder;">We are a hotel that loves crafting beautiful foods and environment for you to relax.</li>
         </ul>
-            <a class="link animated fadeInUp delay-1s servicelink" href={{URL::to("book")}}>Book a Room</a>
+            <a class="link animated fadeInUp delay-1s servicelink" href={{url('/book')}}>Book a Room</a>
     </div>
 </header><!--header-end-->
 
@@ -73,14 +95,12 @@
 			<div class="row">
 				<div class="col-lg-6">
 					<p>
-						Located in vibrant, peaceful and a beautiful place, Dhulikhel Boutique hotel is trying to provide its service to the people in a friendly way.You can also enjoy the typical nepali architecture as windows
-						and exteriors are well carved from the experienced local architects to give you the feel of 
-						connecting to the nepali culture.Its designed to reflect its traditional 
-						cultural setting along with the nepali culture famous for its hospitality. 
-						<br>Come and get a unique experience of a hotel, not so far from the busy life of kathmandu 
-						yet not so near that you will be disturbed by the city life. we provide you with the service 
+						Located in a vibrant, peaceful and a beautiful place, Dhulikhel Boutique hotel is trying to provide its service to the people in a friendly way. You can also enjoy the typical Nepali architecture as windows and exteriors are well carved from the experienced local architects to give you the feel of connecting to the Nepali culture. Its designed to reflect its traditional cultural setting along with the Nepali culture famous for its hospitality. 
+ 
+
+						<br>Come and get a unique experience of a hotel, not so far from the busy life of Kathmandu yet not so near that you will be disturbed by the city life. we provide you with the service you deserve.
 						you deserve.
-						<br>Nepalase historical articraft culture and a modern lifestyle combined for a perfect stay and the best sleep you can get away from home.
+						<br>Nepalese historical architecture and culture and a modern lifestyle combined for a perfect stay and the best sleep you can get away from home. 
 					</p>
 					<hr class="bl-line">
 				</div>
@@ -97,7 +117,7 @@
 	<div class="container">
    			<h2>Our Services</h2>
            		<hr class="service-line">
-            	<p class="services-pg">We offer exceptional services and make sure you will leave the hotel on yur best mood and wanting more of the same.</p>
+            	<p class="services-pg">We offer exceptional services and make sure you will leave the hotel in your best mood and wanting more of the same.</p>
         	<div id="myCarousel" class="carousel slide" data-ride="carousel">
 												
 						<!-- Wrapper for slides -->
@@ -108,9 +128,7 @@
 								</figure>
 								<div class="featured-box-col2 delay-04s">
 									<h3 class="carousel-h3">Lakuri bar</h3>
-									<p>Its a Nepali style house named after the Lakuri tree just above the bar. It is stocked with a wide variety of drinks. You can enjoy the nepal made drinks 
-									(i.e wine made from rice) if you want. You can also always find the branded drinks
-									ready to be served just for you. </p>
+									<p>Its a Nepali style house named after the Lakuri tree just above the bar. It's stocked with a wide variety of drinks. You can enjoy Nepal made drinks (i.e. wine made from rice) if you want to taste it. You can also always find the branded drinks ready to be served just for you. </p>
 								</div>    
 							</div>
 							<div class="item"> <img src="" alt="" style="">
@@ -120,8 +138,7 @@
 								
 								<div class="featured-box-col2 delay-02s">
 									<h3 class="carousel-h3">Kitchen &amp; Dining</h3>
-									<p>We serve Nepali, Continental, Chinese and Indian food. All are prepared by chefs
-										trained in each specialty and adapted to our quality requirements. </p>
+									<p>We serve Nepali, Continental, Chinese and Indian food. All these are prepared by chefs trained in each specialty and adapted to our quality requirements. </p>
 								</div>   
 							</div>
 							<div class="item">
@@ -130,7 +147,7 @@
 								</figure>
 								<div class="featured-box-col2 delay-06s">
 									<h3 class="carousel-h3">Wellness SPA</h3>
-									<p>Spa draws on ayurveda, Buddhist medicine and traditional rituals and treatments. People come here for healing and purification. After a session you will feel rejuvenated.</p>
+									<p>Spa draws on Ayurveda, Buddhist medicine and traditional rituals and treatments. People come here for healing and purification. After a session, you will feel rejuvenated.</p>
 								</div>  
 							</div>
 							
@@ -140,16 +157,9 @@
 								</figure>
 								<div class="featured-box-col2 delay-06s">
 									<h3 class="carousel-h3">Accomodation</h3>
-										<p>The rooms available here are designed to give you the ultimate relaxation that 
-										your body needs from the hectic schedule you are currently in. All the rooms 
-										are well furnished and have been equipped with the attached bathroom. Each room 
-<<<<<<< HEAD
-										has a balcony where you can enjoy the views.For More information about the rooms <a href={{URL::to("book")}} class="room-click">Click Here</a>
+										<p>The rooms available here are designed to give you the ultimate relaxation that your body needs from the hectic schedule you are currently in. All the rooms are well furnished and have been equipped with the attached bathroom. Each room has a balcony where you can enjoy the views of Dhulikhel. More information about the rooms.<a href={{URL::to("book")}} class="room-click">Click Here</a>
 									</p>
-=======
-										has a balcony where you can enjoy the views.For More information about the rooms.<br> <a href={{URL::to("book")}} class="room-click">Click Here</a>
-										</p>
->>>>>>> 508b9ce0803c3d28d7a51f86d52a46f5cd8e4836
+
 									</div>  
 							</div>
 							<!--<div class="item">
@@ -189,7 +199,7 @@
                     <p>Print Design</p>-->
                 </div>
                 <div class="Portfolio-box exteriors">
-                	<img id='myImg' src="img/exterior1.jpg" alt="">
+                	<img id='myImg' src="{{Request::root()}}/img/exterior1.jpg" alt="">
                 </div>
                 <div class=" Portfolio-box rooms">
                 	<img id='myImg' src="img/room1.jpg" alt="">
